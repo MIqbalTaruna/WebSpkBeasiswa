@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+}
+
+#login-card {
+    margin: auto;
+    padding: 20px;
+    width: max-content;
+    background-color: white;
+}
+
+#icon {
+    color: gray !important;
+}
+
+#form-siswa {
+    background-color: white;
+    padding: 20px;
+}
+
+#form-bobot {
+    background-color: white;
+    padding: 20px;
+}
+
+#ic-refresh:hover {
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+
+.my-container {
+    width: 100vw !important;
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.row {
+    margin-bottom: 1.25rem;
+}
